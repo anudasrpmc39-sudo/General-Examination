@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.form input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card {
+  padding: 10px;
+  margin: 5px 0;
+  border-left: 6px solid;
+}
+
+.green {
+  background: #E8F5E9;
+  border-color: #388E3C;
+}
+
+.yellow {
+  background: #FFF8E1;
+  border-color: #FBC02D;
+}
+
+.red {
+  background: #FFEBEE;
+  border-color: #D32F2F;
+}
+
+#summary {
+  margin-top: 15px;
+  padding: 10px;
+}
