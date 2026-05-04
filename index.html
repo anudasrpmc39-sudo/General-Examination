@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple CDS App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>🧠 Simple CDS - General Examination</h2>
+
+<div class="form">
+  <input id="pulse" type="number" placeholder="Pulse (bpm)">
+  <input id="spo2" type="number" placeholder="SpO₂ (%)">
+  <input id="temp" type="number" placeholder="Temperature (°C)">
+  
+  <label>
+    Pallor:
+    <input id="pallor" type="checkbox">
+  </label>
+
+  <button onclick="evaluate()">Check</button>
+</div>
+
+<div id="alerts"></div>
+<div id="summary"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
