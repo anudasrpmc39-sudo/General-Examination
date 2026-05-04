@@ -21,7 +21,35 @@
 
   <button onclick="evaluate()">Check</button>
 </div>
+<input id="resp" type="number" placeholder="Respiratory Rate">
 
+<input id="bpSys" type="number" placeholder="Systolic BP">
+
+<input id="capRefill" type="number" placeholder="Capillary refill (sec)">
+
+<input id="bmi" type="number" placeholder="BMI">
+
+<label>Cyanosis <input id="cyanosis" type="checkbox"></label>
+<label>Clubbing <input id="clubbing" type="checkbox"></label>
+<label>Icterus <input id="icterus" type="checkbox"></label>
+
+<select id="jvp">
+  <option value="normal">JVP Normal</option>
+  <option value="raised">JVP Raised</option>
+</select>
+
+<select id="edema">
+  <option value="none">No edema</option>
+  <option value="mild">Mild edema</option>
+  <option value="severe">Severe edema</option>
+</select>
+
+<select id="consciousness">
+  <option value="alert">Alert</option>
+  <option value="drowsy">Drowsy</option>
+  <option value="unconscious">Unconscious</option>
+</select>
+  
 <div id="alerts"></div>
 <div id="summary"></div>
 
